@@ -1,0 +1,14 @@
+$(function(){
+	$('#btn1').bind('click',function(){
+		$('.div').toggle("slow");
+	});
+	$('#btn2').bind('click',function(){
+		$('.div').fadeToggle("slow");
+	});
+	$('#btn3').bind('click',function(){
+		$('.div').slideToggle("slow");
+	});
+	$('.hellobar').bind('click',function(){
+		$(this).slideUp("slow");
+	})
+});
