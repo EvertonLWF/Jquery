@@ -1,0 +1,15 @@
+body{
+	margin: 0;
+}
+button{
+	position: relative;
+	left: -20px;
+}
+.hr{
+	width: 210px;
+	height: 22px;
+	background-color: #EEE;
+	color: #FFF;
+	position: absolute;
+	display: none;
+}
